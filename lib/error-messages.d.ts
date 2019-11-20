@@ -1,0 +1,10 @@
+export declare enum ERRORS {
+    UNKNOWN = "UNKNOWN",
+    UNAUTHORIZED = "UNAUTHORIZED",
+    PERMISSION_DENIED = "PERMISSION_DENIED"
+}
+export declare enum HTTP_CODES {
+    UNKNOWN = 500,
+    UNAUTHORIZED = 401,
+    PERMISSION_DENIED = 404
+}

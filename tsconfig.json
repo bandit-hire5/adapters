@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "lib": ["es6"],
+    "outDir": "lib",
+    "declaration": true,
+    "declarationDir": "./lib",
+    "baseUrl": ".",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"],
+      "~src/*": ["../api/src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
