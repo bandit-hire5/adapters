@@ -2,12 +2,12 @@
   "name": "adapters",
   "version": "0.1.0",
   "description": "Adapters for app",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/is-builder/adapters.git"
   },
-  "private": true,
   "scripts": {
     "build": "rimraf ./lib && tsc && git add ./lib/"
   },
