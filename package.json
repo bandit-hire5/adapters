@@ -28,6 +28,6 @@
     "typescript": "^3.7.2"
   },
   "_moduleAliases": {
-    "~src": "dist"
+    "~src": "lib"
   }
 }
